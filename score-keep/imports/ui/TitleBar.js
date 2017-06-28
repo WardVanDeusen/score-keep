@@ -11,13 +11,13 @@ import PropTypes from 'prop-types';
 						}
 
 	render(){
-		return (git
+		return (
 			<div className="titleBar">
 				<div className="wrapper">
 					<h1>{this.props.title}</h1>
-						{this.renderSubtitle()}
+								{this.renderSubtitle()}
 				</div>
-					</div>
+					</div>	
 								);
 									}
 									 }
@@ -28,7 +28,8 @@ import PropTypes from 'prop-types';
 			};
 
 	TitleBar.defaultProps = {
-		//title: 'Default title'
+//		title:'Default title.'
 	};
+
 
 
